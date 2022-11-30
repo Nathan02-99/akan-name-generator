@@ -1,0 +1,268 @@
+
+body, html {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display:table;
+  }
+  body {
+      display:table-cell;
+      vertical-align:middle;
+  }
+  form {
+      display:table;/* shrinks to fit content */
+      margin:auto;
+  }
+
+#year-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#month-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#day-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#get-name{
+  border-radius: 5px;
+  color: #000000;
+  background-color: cyan;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+#result{
+  text-align: center;
+}
+
+.content{
+  background-image: #15B2F7;
+  /* height: 600px; */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px #000000;
+  border-radius: 0.5%;
+}
+
+.research{
+  text-decoration: underline;
+  color: white;
+}
+
+.clear{
+  border-radius: 5px;
+  color: #000000;
+  background-color: cyan;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+body{
+  font-family:display;
+
+  color: navy blue;
+  font-size: 17px;
+}
+
+h1{
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+
+
+#year-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#month-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#day-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#get-name{
+  border-radius: 5px;
+  color: #000000;
+  background-color: cyan;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+#result{
+  text-align: center;
+}
+
+.content{
+  background-color: #15B2F7;
+  /* height: 600px; */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px #000000;
+  border-radius: 0.5%;
+}
+
+.research{
+  text-decoration: underline;
+  color: white;
+}
+
+.clear{
+  border-radius: 5px;
+  color: #000000;
+  background-color: cyan;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
+}
+
+
+
+
+
+
+
+
+
+  .clear{
+    border-radius: 5px;
+    color: #000000;
+    background-color: cyan;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+
+  #get-name{
+    border-radius: 5px;
+    color: #000000;
+    background-color: cyan;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+
+  .clear{
+    border-radius: 5px;
+    color: #000000;
+    background-color: cyan;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+  }
+.myForm {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.8em;
+width: 20em;
+padding: 1em;
+border: 1px solid #ccc;
+}
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm fieldset {
+border: none;
+padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+padding: 0;
+font-weight: bold;
+}
+
+.myForm label.choice {
+font-size: 0.9em;
+font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.3em;
+}
+
+.myForm textarea {
+height: 100px;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-top: 1em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+a:hover{
+  color: #006B3F;
+}
